@@ -1,5 +1,7 @@
 {
   "name": "mruby/c",
+  "description": "Add the mruby/c to allow to execute ruby",
+  "keywords": "ruby,mruby,mrubyc,esp32,espidf",
   "repository":
   {
     "type": "git",
@@ -7,9 +9,6 @@
   },
   "version": "2.0",
   "license": "BSD-3-Clause",
-  "examples": [
-    "mrubyc/sample_c/*.c"
-  ],
   "build": {
     "srcFilter": [
       "+<*>",
